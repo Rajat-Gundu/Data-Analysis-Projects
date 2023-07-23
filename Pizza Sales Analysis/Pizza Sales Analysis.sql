@@ -1,5 +1,6 @@
 --Dataset : Pizza sales data - 2015
---Schema : /*
+--Schema : 
+/*
 pizza_id - int  primary_key	
 order_id - int	
 pizza_name_id - varchar(20)	
@@ -11,7 +12,8 @@ total_price - int
 pizza_size - varchar(10) 	
 pizza_category - varchar(15) 	
 pizza_ingredients - varchar(80) 	
-pizza_name - varchar(50)   */
+pizza_name - varchar(50)   
+*/
 --Nature of data - Structured
 --Number of record - 48621
 --Queried using: MySQL

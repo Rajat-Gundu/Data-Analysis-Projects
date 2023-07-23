@@ -1,5 +1,5 @@
 --Dataset : Pizza sales data - 2015
---Schema :
+--Schema : /*
 pizza_id - int  primary_key	
 order_id - int	
 pizza_name_id - varchar(20)	
@@ -11,12 +11,12 @@ total_price - int
 pizza_size - varchar(10) 	
 pizza_category - varchar(15) 	
 pizza_ingredients - varchar(80) 	
-pizza_name - varchar(50) 
+pizza_name - varchar(50)   */
 --Nature of data - Structured
 --Number of record - 48621
 --Queried using: MySQL
 
---Gathering & Cleaning the Data using MySQL Workbench :
+-- #Gathering & Cleaning the Data using MySQL Workbench :
 
 --Updated date records from ‘01-01-2015’ to ‘01/01/2015’ :
 UPDATE pizza_sales SET order_date = REPLACE(order_date, '-' , '/');
@@ -24,8 +24,8 @@ UPDATE pizza_sales SET order_date = REPLACE(order_date, '-' , '/');
 --Converted data type from string to date & changed date format from ‘01/01/2015’ to ‘2015/01/01’ :
 UPDATE pizza_sales SET order_date = DATE_FORMAT(STR_TO_DATE (order_date,"%d/%m/%Y"),"%y/%m/%d");
 
---Analysing the Data using MySQL Workbench :
---Key Performance Indicators :
+-- #Analysing the Data using MySQL Workbench :
+-- #Key Performance Indicators :
 
 --Total Revenue
 SELECT ROUND(SUM(total_price),2) as Total_Revenue FROM pizza_sales;
@@ -42,7 +42,7 @@ SELECT COUNT(DISTINCT(order_id)) Total_Orders FROM pizza_sales;
 --Average pizzas per order
 SELECT ROUND(SUM(quantity) / COUNT(DISTINCT(order_id)) , 2) as Average_Pizzas_Per_Order FROM pizza_sales;
 
---Finding trends :
+-- #Finding trends :
 
 --Daily trend for total orders
 SELECT DAYNAME(order_date) as Order_Day, COUNT(DISTINCT(order_id)) as Total_Orders FROM pizza_sales GROUP BY dayname(order_date);

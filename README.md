@@ -23,8 +23,9 @@ In this section I will list data analytics projects briefly describing the techn
 ### Pizza Sales Data Analysis and Visualization  
 **Code:** [`Pizza Sales Analysis.sql`](https://github.com/Rajat-Gundu/Data-Analysis-Projects/blob/main/Pizza%20Sales%20Analysis/Pizza%20Sales%20Analysis.sql)    
 **Presentation:** [`Pizza Sales Analysis.pptx`](https://github.com/Rajat-Gundu/Data-Analysis-Projects/blob/main/Pizza%20Sales%20Analysis/Pizza%20Sales%20Analysis.pptx)  
-**Description:** The dataset contains 48621 records. The Pizza Company wants to Analyse their Sales Data to gain Insights into their business performance and identify opportunities for growth. They are interested in understanding Key Performance Indicators such as Total Revenue, Average Order Value, Total Pizzas Sold, Total Orders, Average pizzas per order, Daily,monthly,hourly trends for total orders, Percentage of sales by pizza category,size, Total pizzas sold by category and Top & bottom 5 best sellers by Revenue, Quantity and Orders. The goal is to provide insights into the company's performance and identify opportunities for growth.  
+**Description:** The dataset contains 48621 records. The Pizza Company wants to Analyse their Sales Data to gain Insights into their business performance and identify opportunities for growth. They are interested in understanding **Key Performance Indicators** such as Total Revenue, Average Order Value, Total Pizzas Sold, Total Orders, Average pizzas per order, Daily,monthly,hourly **trends** for total orders, Percentage of sales by pizza category,size, Total pizzas sold by category and Top/Bottom sellers by Revenue, Quantity and Orders. The goal is to provide insights into the company's performance and identify opportunities for growth.  
 **Technology:** SQL, Power BI.  
-**Skills:** data cleaning, data analysis, data visualization.  
+**Skills:** Data cleaning, Data analysis, Data visualization.   
+**Result:** Compiled comprehensive sales trends that helps in **identifing & taking decision** like removal or improvment of poorly performing pizzas, promoting best-selling pizzas, adjust staffing and inventory levels based on demand trends.
 
 

@@ -30,7 +30,7 @@ In this section I will list data analytics projects briefly describing the techn
 **Result:** Compiled comprehensive sales trends that helps in **identifing & taking decision** like removal or improvment of poorly performing pizzas, promoting best-selling pizzas, adjust staffing and inventory levels based on demand trends.
 
 ### ISBS-MBA Placement Analysis
-**File:** [`ISBS-MBA Placement (Batch 2017-19 to 2021-23).pbix`](https://github.com/Rajat-Gundu/Data-Analysis-Projects/blob/main/ISBS-MBA%20Placement%20Analysis/ISBS-MBA%20Placement%20(Batch%202017-19%20to%202021-23).pbix)         
+**Dashboard:** [`ISBS-MBA Placement (Batch 2017-19 to 2021-23)`](https://shorturl.at/tuY04)                 
 **Presentation:** [`ISBS-MBA Placement (Batch 2017-19 to 2021-23).pptx`](https://github.com/Rajat-Gundu/Data-Analysis-Projects/blob/main/ISBS-MBA%20Placement%20Analysis/ISBS-MBA%20Placement%20(Batch%202017-19%20to%202021-23).pptx)             
 **Description:** Created an insightful Power BI dashboard utilizing real data from ISBS College's placement statistics. The dashboard provides comprehensive insights into the MBA admission session, **including KPIs, filters** for batch year and specialization, and **navigation options** for detailed exploration. The analysis reveals key insights such as highest package, average package, popular specializations, consistent company participation.  
 **Technology:** Power BI, Power Query, DAX, MySQL Workbench.  
